@@ -10,8 +10,8 @@ public static class TranslatePizzaType {
                 return "Greek";
                 break;
 
-            case PizzaType.Peperoni:
-                return "Peperoni";
+            case PizzaType.Pepperoni:
+                return "Pepperoni";
                 break;
 
             case PizzaType.GlutenFree:
@@ -23,7 +23,7 @@ public static class TranslatePizzaType {
                 break;
 
             default:
-                System.err.append(0)
+                System.err.println("Not a valid pizza type");
                 break;
 
         }

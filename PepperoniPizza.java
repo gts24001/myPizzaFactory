@@ -1,7 +1,7 @@
-public class VeganPizza implements Pizza {
+public class PepperoniPizza implements Pizza {
 
-    public VeganPizza() {
-        this.pizzaType = PizzaType.Vegan;
+    public PepperoniPizza() {
+        this.pizzaType = PizzaType.Pepperoni;
     }
 
     private PizzaType pizzaType;
