@@ -1,3 +1,4 @@
+package c;
 public static class TranslatePizzaType {
 
     public static String fromPizzaTypeEnumToString(PizzaType pizzatype) {

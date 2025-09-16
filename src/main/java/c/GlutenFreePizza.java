@@ -1,7 +1,8 @@
-public class PepperoniPizza implements Pizza {
+package c;
+public class GlutenFreePizza implements Pizza {
 
-    public PepperoniPizza() {
-        this.pizzaType = PizzaType.Pepperoni;
+    public GlutenFreePizza() {
+        this.pizzaType = PizzaType.GlutenFree;
     }
 
     private PizzaType pizzaType;

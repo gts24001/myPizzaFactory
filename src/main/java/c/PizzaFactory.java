@@ -1,3 +1,4 @@
+package c;
 public class PizzaFactory {
 
     public Pizza PizzaOrder(PizzaType type) {
